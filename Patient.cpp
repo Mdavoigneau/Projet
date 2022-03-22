@@ -1,5 +1,4 @@
 #include <iostream>
-
 #include "Patient.hpp"
 
 using namespace std;
@@ -31,10 +30,11 @@ Patient::~Patient(){
     cout << "Patient supprimé" << endl;
 }
 
-void Patient::afficherPatient() const{
+void Patient::afficherPatient(){
+    cout << "vide" << endl;
 }
 
-string Patient::numeroSecu() const{
+string Patient::numeroSecu() {
     return this->idSecu;
 }
 
